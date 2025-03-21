@@ -1,0 +1,19 @@
+[[libgpiod]]
+arch = "aarch64"
+git-tree-sha1 = "4ce1dae1b3f9c8383ba913c18bc3ab0195498f27"
+libc = "glibc"
+os = "linux"
+
+    [[libgpiod.download]]
+    sha256 = "ab141520296d0c5b661ad73efd7f7922c606b9ff7d5846f7b5b9db73085c6a7e"
+    url = "https://github.com/JuliaBinaryWrappers/libgpiod_jll.jl/releases/download/libgpiod-v2.2.1+0/libgpiod.v2.2.1.aarch64-linux-gnu.tar.gz"
+[[libgpiod]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "76bfefc7f19e451465079733707bc8f8b01e33f0"
+libc = "glibc"
+os = "linux"
+
+    [[libgpiod.download]]
+    sha256 = "58cda4ea62e909ffce5b933944a592830cbbc390e5170e86e46f2ceba42d7f32"
+    url = "https://github.com/JuliaBinaryWrappers/libgpiod_jll.jl/releases/download/libgpiod-v2.2.1+0/libgpiod.v2.2.1.armv7l-linux-gnueabihf.tar.gz"
